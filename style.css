@@ -84,3 +84,14 @@ footer .links > a {
     color: rgb(214, 214, 41);
     text-decoration: underline;
 }
+
+article:nth-child(even) {
+    background-color: rgb(204, 67, 67); 
+}
+
+.newads::before {
+    content: "NEW";
+    color: rgb(228, 10, 10);
+    font-size: 2rem;
+}
+
